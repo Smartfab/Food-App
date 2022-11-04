@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Food App</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="meal-wrapper">
+				<div class="meal-search">
+					<h2 class="title">Find meals for your ingredients</h2>
+					<blockquote>
+						Real food doesn't have ingredients, real food is ingredients<br />
+						<cite>- Jack Miller</cite>
+					</blockquote>
+					<div class="meal-search-box">
+						<input
+							type="text"
+							class="search-content"
+							placeholder="Enter an ingredient"
+							id="search-input"
+						/>
+						<button type="submit" class="search-btn btn" id="search-btn">
+							
+						</button>
+					</div>
+					<div class="empty-search"></div>
+				</div>
+
+				<div class="meal-result">
+					<h2 class="title">Your Search Results:</h2>
+					<div id="meal">
+						<!-- meal-item -->
+					   <!-- <div class="meal-item">
+							<div class="meal-img">
+								<img src="images/potato_chips_PNG45.png" alt="food" />
+							</div>
+							<div class="meal-name">
+								<h3>Potato chips</h3>
+								<a href="#" class="recipe-btn">Get Recipe</a>
+							</div>
+					   </div> -->
+					   <!-- end of meal item -->
+				   </div>
+				<div class="meal-details">
+					<button
+						type="button"
+						class="btn recipe-close-btn"
+						id="recipe-close-btn"
+					>
+						<i class="fas fa-times"></i>
+					</button>
+					<!-- meal content -->
+					<div class="meal-details-content">
+						<!-- <h2 class="recipe-title">Meals Name Here</h2>
+						<p class="recipe-category">Category Name</p>
+						<div class="recipe-instruct">
+							<h3>Instructions:</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Veniam, officiis. Impedit sunt, dolor laboriosam, illum pariatur
+								aut debitis quibusdam repellat perferendis, corrupti provident
+								ipsam saepe excepturi veritatis dolores delectus totam.
+							</p>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Pariatur atque, a corporis perferendis vero omnis magni soluta
+								tempora eos reiciendis cumque enim nobis maiores possimus, nemo
+								esse quaerat, numquam minima!
+							</p>
+						</div>
+						<div class="recipe-meal-img">
+							<img src="images/potato_chips_PNG45.png" alt="" />
+							</div>
+							<div class="recipe-link">
+								<a href="#" target="_blank">Watch Video</a>
+							</div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
